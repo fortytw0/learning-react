@@ -1,12 +1,12 @@
-import './App.css'
+import Calculator from "./components/calculator";
+import Display from "./components/display";
 
 function App() {
-
   return (
     <>
-      <h1>Vanakkam Ulakam</h1>
+      <Calculator display={<Display />}></Calculator>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
